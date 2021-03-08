@@ -1,25 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import HandlingEvent from './handlingEvent'
+import IncrementDecrement from'./incdec'
+import Twoway from'./Twoway'
+import Greeting from'./komponen'
+import Variabel from './var'
+import OnchangePersons from './manipulatingState'
+import Input from './input'
+import From from './coba'
+function App() 
+{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    {/* <From/>  */}
+     {/* <OnchangePersons/>
+     <IncrementDecrement/> */}
+     {/* <Twoway/> */}
+     <Input/>
+    </>
+    
+  )
 }
 
 export default App;
