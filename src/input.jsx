@@ -33,7 +33,7 @@ const Input = () =>
             value={user}
             />
             </div>
-        <button onSubmit={onChangeInput}>ON</button>
+        <button onClick={onChangeInput}>ON</button>
         </>
     )
 }
